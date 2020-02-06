@@ -1,0 +1,33 @@
+
+Description : make and update review in one Function
+URL To Test In Post Man: http://drivixcorp.com/api/gasStationReview?token=0a9abe3917c8562eb0bb27037c338cc3&gas_id=1252&rate=4
+
+params :
+1. token
+2. rate  , from [1 to 5]
+3. gas_id
+
+response :
+1. 200 ok , review saved successfully or updated successfully
+2. 400 validation error
+-----------------------------------------------------------------------------
+Description: check if user already make an review on gas station or not
+URL to test In Post Man : http://drivixcorp.com/api/getUserReview?token=0a9abe3917c8562eb0bb27037c338cc3&gas_id=1252
+
+params :
+1. user token
+2. gas_id
+
+response :
+1. 400 validation error
+2. 200 with empty array , => user don't make review on this gas station yest
+3. 200 with Rate Number from [1 to 5] , user already make rate for this gas station 
+-----------------------------------------------------------------------------
+Desciption : filter gas station based on user search string
+URL To Test In Post Man: http://drivixcorp.com/api/FilterGasStation?text=2
+
+params :
+1. text , string 
+
+response
+1. 200 array contain list of gas station , limit to 10 per request

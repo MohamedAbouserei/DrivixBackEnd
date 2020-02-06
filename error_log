@@ -1,0 +1,2 @@
+[02-May-2019 17:50:29 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (The specified module could not be found.), C:\php\ext\php_php_openssl.dll.dll (The specified module could not be found.)) in Unknown on line 0
+[02-May-2019 17:50:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\php\ext\php_openssl.dll (The specified module could not be found.), C:\php\ext\php_php_openssl.dll.dll (The specified module could not be found.)) in Unknown on line 0
